@@ -1,0 +1,16 @@
+{
+  "name": "Paradox Alarm Interface",
+  "version": "1.1.0",
+  "slug": "paradox_alarm_interface",
+  "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
+  "url": "https://github.com/ParadoxAlarmInterface/pai",
+  "arch": ["armv7", "aarch64", "amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "host_network": true,
+  "services": ["mqtt:want"],
+  "map": ["share:rw"],
+  "image": "paradoxalarminterface/pai:1.1.0"
+}
