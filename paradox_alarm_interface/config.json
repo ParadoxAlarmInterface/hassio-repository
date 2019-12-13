@@ -12,5 +12,5 @@
   "host_network": true,
   "services": ["mqtt:want"],
   "map": ["share:rw"],
-  "image": "paradoxalarminterface/pai:1.1.0"
+  "image": "paradoxalarminterface/pai"
 }
