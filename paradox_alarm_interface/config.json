@@ -7,7 +7,9 @@
   "arch": ["armv7", "aarch64", "amd64"],
   "startup": "application",
   "boot": "auto",
-  "options": {},
+  "options": {
+    "user": "User"
+  },
   "schema": {},
   "host_network": true,
   "services": ["mqtt:want"],
