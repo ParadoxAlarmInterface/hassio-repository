@@ -8,10 +8,14 @@
   "startup": "application",
   "boot": "auto",
   "options": {
-    "user": "User"
+    "connection_type": "IP",
+    "site_id": "",
+    "site_email": ""
   },
   "schema": {
-    "user": "str"
+    "connection_type": "str",
+    "site_id": "str",
+    "site_email": "str"
   },
   "host_network": true,
   "services": ["mqtt:want"],
