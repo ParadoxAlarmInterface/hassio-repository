@@ -10,7 +10,9 @@
   "options": {
     "user": "User"
   },
-  "schema": {},
+  "schema": {
+    "user": "str"
+  },
   "host_network": true,
   "services": ["mqtt:want"],
   "map": ["share:rw"],
