@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface",
-  "version": "1.1.0",
+  "version": "latest",
   "slug": "paradox_alarm_interface",
   "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
   "url": "https://github.com/EmileSpecs/pai",
