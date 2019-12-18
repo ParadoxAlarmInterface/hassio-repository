@@ -11,12 +11,20 @@
     "CONNECTION_TYPE": "IP",
     "IP_CONNECTION_SITEID": "",
     "IP_CONNECTION_EMAIL": "",
+    "MQTT_HOST": "127.0.0.1",
+    "MQTT_PORT": 1883,
+    "MQTT_USERNAME": "",
+    "MQTT_PASSWORD": "",
     "MQTT_HOMEASSISTANT_AUTODISCOVERY_ENABLE": false
   },
   "schema": {
     "CONNECTION_TYPE": "str",
     "IP_CONNECTION_SITEID": "str",
     "IP_CONNECTION_EMAIL": "str",
+    "MQTT_HOST": "str",
+    "MQTT_PORT": "int",
+    "MQTT_USERNAME": "str",
+    "MQTT_PASSWORD": "str",
     "MQTT_HOMEASSISTANT_AUTODISCOVERY_ENABLE": "bool"
   },
   "host_network": true,
