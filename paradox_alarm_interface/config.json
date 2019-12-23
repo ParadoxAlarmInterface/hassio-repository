@@ -34,5 +34,5 @@
   "host_network": true,
   "services": ["mqtt:want"],
   "map": ["share:rw"],
-  "image": "emilespecs/pai"
+  "image": "emilespecs/pai-{arch}"
 }
