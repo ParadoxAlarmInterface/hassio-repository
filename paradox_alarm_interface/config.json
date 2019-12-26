@@ -38,6 +38,8 @@
     "IP_CONNECTION_PASSWORD": "str?",
     "IP_CONNECTION_SITEID": "str?",
     "IP_CONNECTION_EMAIL": "str?",
+    "IP_CONNECTION_PANEL_SERIAL": "str?",
+    "IP_CONNECTION_BARE": "bool",
     "PASSWORD": "str?",
     "MQTT_ENABLE": "bool",
     "MQTT_HOST": "str",
