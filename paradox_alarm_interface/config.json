@@ -10,6 +10,9 @@
   "environment": {
      "PAI_CONFIG_FILE": "/data/options.json"
   },
+  "ports": {
+      "10000/tcp": 10000
+  },
   "options": {
     "LOGGING_FILE": null,
     "LOGGING_LEVEL_CONSOLE": 10,
