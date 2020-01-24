@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface (Development version)",
-  "version": "dev",
+  "version": "dev-latest",
   "slug": "paradox_alarm_interface_dev",
   "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
   "url": "https://github.com/ParadoxAlarmInterface/pai/tree/dev",
