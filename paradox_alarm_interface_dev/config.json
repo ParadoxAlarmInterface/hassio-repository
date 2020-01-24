@@ -1,0 +1,53 @@
+{
+  "name": "Paradox Alarm Interface (Development version)",
+  "version": "dev",
+  "slug": "paradox_alarm_interface_dev",
+  "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
+  "url": "https://github.com/ParadoxAlarmInterface/pai/tree/dev",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "environment": {
+     "PAI_CONFIG_FILE": "/data/options.json"
+  },
+  "ports": {
+      "10000/tcp": 10000
+  },
+  "options": {
+    "LOGGING_FILE": null,
+    "LOGGING_LEVEL_CONSOLE": 10,
+    "LOGGING_LEVEL_FILE": 40,
+    "LOGGING_DUMP_PACKETS": false,
+    "LOGGING_DUMP_MESSAGES": false,
+    "LOGGING_DUMP_STATUS": false,
+    "LOGGING_DUMP_EVENTS": false,
+    "CONNECTION_TYPE": null,
+    "SERIAL_PORT": "/dev/ttyS1",
+    "SERIAL_BAUD": 9600,
+    "IP_CONNECTION_HOST": "127.0.0.1",
+    "IP_CONNECTION_PORT": 10000,
+    "IP_CONNECTION_PASSWORD": "paradox",
+    "IP_CONNECTION_SITEID": null,
+    "IP_CONNECTION_EMAIL": null,
+    "IP_CONNECTION_PANEL_SERIAL": null,
+    "IP_CONNECTION_BARE": false,
+    "LIMITS": {},
+    "STATUS_REQUESTS": [0, 1, 2, 3, 4, 5],
+    "SYNC_TIME": true,
+    "PASSWORD": "0000",
+    "MQTT_ENABLE": true,
+    "MQTT_HOST": "127.0.0.1",
+    "MQTT_PORT": 1883,
+    "MQTT_USERNAME": null,
+    "MQTT_PASSWORD": null,
+    "MQTT_RETAIN": true,
+    "MQTT_BIND_ADDRESS": "127.0.0.1",
+    "MQTT_BIND_PORT": 0,
+    "MQTT_HOMEASSISTANT_AUTODISCOVERY_ENABLE": true
+  },
+  "schema": false,
+  "host_network": true,
+  "services": ["mqtt:want"],
+  "map": ["share:rw"],
+  "image": "paradoxalarminterface/pai"
+}
