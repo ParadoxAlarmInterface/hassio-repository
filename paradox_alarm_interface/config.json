@@ -3,6 +3,7 @@
   "version": "1.5.0",
   "slug": "paradox_alarm_interface",
   "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
+  "auto_uart": true,
   "url": "https://github.com/ParadoxAlarmInterface/pai",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
@@ -12,6 +13,9 @@
   },
   "ports": {
       "10000/tcp": 10000
+  },
+  "ports_description": {
+    "10000/tcp": "For IP connection from Babyware"
   },
   "options": {
     "LOGGING_FILE": null,
@@ -46,7 +50,6 @@
     "MQTT_HOMEASSISTANT_AUTODISCOVERY_ENABLE": true
   },
   "schema": false,
-  "host_network": true,
   "services": ["mqtt:want"],
   "map": ["share:rw"],
   "image": "paradoxalarminterface/pai"
