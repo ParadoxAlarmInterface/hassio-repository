@@ -36,7 +36,6 @@
     "IP_CONNECTION_PANEL_SERIAL": null,
     "IP_CONNECTION_BARE": false,
     "LIMITS": {},
-    "STATUS_REQUESTS": [0, 1, 2, 3, 4, 5],
     "SYNC_TIME": true,
     "PASSWORD": "0000",
     "MQTT_ENABLE": true,
