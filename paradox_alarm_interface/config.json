@@ -47,6 +47,7 @@
     "MQTT_BIND_ADDRESS": "127.0.0.1",
     "MQTT_BIND_PORT": 0,
     "MQTT_HOMEASSISTANT_AUTODISCOVERY_ENABLE": true
+    "IP_INTERFACE_ENABLE": true
   },
   "schema": false,
   "services": ["mqtt:want"],
