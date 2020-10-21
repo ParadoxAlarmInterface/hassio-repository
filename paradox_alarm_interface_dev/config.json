@@ -56,6 +56,5 @@
   },
   "schema": false,
   "services": ["mqtt:want"],
-  "map": ["share:rw"],
   "image": "paradoxalarminterface/pai"
 }
