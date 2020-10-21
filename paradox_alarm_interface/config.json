@@ -8,6 +8,12 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
+  "usb": true,
+  "legacy": true,
+  "map": [
+    "share:rw",
+    "config:ro"
+  ],
   "environment": {
      "PAI_CONFIG_FILE": "/data/options.json"
   },
