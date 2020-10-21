@@ -9,7 +9,6 @@
   "startup": "application",
   "boot": "auto",
   "usb": true,
-  "legacy": true,
   "map": [
     "share:rw",
     "config:ro"
