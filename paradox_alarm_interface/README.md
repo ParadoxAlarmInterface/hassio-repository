@@ -20,6 +20,6 @@ It supports MG/SP/EVO panels connected through a serial port, which is present i
 
 Support for Magellan, Spectra and EVO panels is very stable. If you find a bug, please report it.
 
-For further information and detailed usage refer to the [**Wiki**](https://github.com/ParadoxAlarmInterface/pai/wiki).
+For **configuration**, further information and detailed usage refer to the [**Wiki**](https://github.com/ParadoxAlarmInterface/pai/wiki).
 
-Also see [**Changelog**](https://github.com/ParadoxAlarmInterface/pai/blob/master/CHANGELOG.md)
+Also see changelog in [**Releases**](https://github.com/ParadoxAlarmInterface/pai/releases)
