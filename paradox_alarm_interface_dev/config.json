@@ -3,7 +3,7 @@
   "version": "dev-latest",
   "slug": "paradox_alarm_interface_dev",
   "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
-  "auto_uart": true,
+  "uart": true,
   "url": "https://github.com/ParadoxAlarmInterface/pai/tree/dev",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
