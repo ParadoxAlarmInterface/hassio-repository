@@ -62,7 +62,7 @@
     "LOGGING_DUMP_EVENTS": "bool",
     "CONNECTION_TYPE": "list(Serial|IP)",
     "SERIAL_PORT": "device",
-    "SERIAL_BAUD": "int(1200,),
+    "SERIAL_BAUD": "int(1200,)",
     "IP_CONNECTION_HOST": "str",
     "IP_CONNECTION_PORT": "int",
     "IP_CONNECTION_PASSWORD": "str",
