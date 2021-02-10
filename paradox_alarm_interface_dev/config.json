@@ -40,7 +40,7 @@
     "IP_CONNECTION_EMAIL": null,
     "IP_CONNECTION_PANEL_SERIAL": null,
     "IP_CONNECTION_BARE": false,
-    "LIMITS": [],
+    "LIMITS": {},
     "SYNC_TIME": true,
     "PASSWORD": "0000",
     "MQTT_ENABLE": true,
