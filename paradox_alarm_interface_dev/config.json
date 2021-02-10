@@ -23,6 +23,8 @@
     "10000/tcp": "For IP connection from Babyware"
   },
   "options": {
+  	"LOGGING_LEVEL_CONSOLE": 20,
+    "LOGGING_LEVEL_FILE": 40,
     "LOGGING_DUMP_PACKETS": false,
     "LOGGING_DUMP_MESSAGES": false,
     "LOGGING_DUMP_STATUS": false,
@@ -36,9 +38,14 @@
     "IP_CONNECTION_BARE": false,
     "LIMITS": {
 		"zone": [],
-		"user": [],
-		"door": [],
-		"pgm": []
+        "user": [],
+        "door": [],
+        "pgm": [],
+        "partition": [],
+        "bus-module": [],
+        "repeater": [],
+        "keypad": [],
+        "key-switch": []
     },
     "SYNC_TIME": true,
     "PASSWORD": "0000",
@@ -73,10 +80,15 @@
     "IP_CONNECTION_PANEL_SERIAL": "str?",
     "IP_CONNECTION_BARE": "bool?",
     "LIMITS": {
-        "zone": ["int"],
-        "user": ["int"],
-        "door": ["int"],
-        "pgm": ["int"]
+        "zone": ["int?"],
+        "user": ["int?"],
+        "door": ["int?"],
+        "pgm": ["int?"],
+        "partition": ["int?"],
+        "bus-module": ["int?"],
+        "repeater": ["int?"],
+        "keypad": ["int?"],
+        "key-switch": ["int?"]
 	},
     "SYNC_TIME": "bool?",
     "PASSWORD": "password?",
