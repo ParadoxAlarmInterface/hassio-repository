@@ -37,7 +37,7 @@
     "IP_CONNECTION_PASSWORD": "paradox",
     "IP_CONNECTION_BARE": false,
     "LIMITS": {
-		"zone": [],
+        "zone": [],
         "user": [],
         "door": [],
         "pgm": [],
@@ -89,7 +89,7 @@
         "repeater": ["int?"],
         "keypad": ["int?"],
         "key-switch": ["int?"]
-	},
+    },
     "SYNC_TIME": "bool?",
     "PASSWORD": "password?",
     "MQTT_ENABLE": "bool?",
