@@ -52,8 +52,8 @@
   },
   "schema": {
     "LOGGING_FILE": "str?",
-    "LOGGING_LEVEL_CONSOLE": "list(0|10|20|30|40|50)",
-    "LOGGING_LEVEL_FILE": "list(0|10|20|30|40|50)",
+    "LOGGING_LEVEL_CONSOLE": "int",
+    "LOGGING_LEVEL_FILE": "int",
     "LOGGING_DUMP_PACKETS": "bool?",
     "LOGGING_DUMP_MESSAGES": "bool?",
     "LOGGING_DUMP_STATUS": "bool?",
