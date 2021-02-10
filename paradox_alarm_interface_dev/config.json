@@ -23,7 +23,6 @@
     "10000/tcp": "For IP connection from Babyware"
   },
   "options": {
-    "LOGGING_FILE": null,
     "LOGGING_LEVEL_CONSOLE": 20,
     "LOGGING_LEVEL_FILE": 40,
     "LOGGING_DUMP_PACKETS": false,
@@ -36,9 +35,6 @@
     "IP_CONNECTION_HOST": "127.0.0.1",
     "IP_CONNECTION_PORT": 10000,
     "IP_CONNECTION_PASSWORD": "paradox",
-    "IP_CONNECTION_SITEID": null,
-    "IP_CONNECTION_EMAIL": null,
-    "IP_CONNECTION_PANEL_SERIAL": null,
     "IP_CONNECTION_BARE": false,
     "LIMITS": {},
     "SYNC_TIME": true,
