@@ -43,9 +43,9 @@
         "pgm": "1-5",
         "partition": "auto",
         "module": "",
-        "repeater": "auto",
-        "keypad": "auto",
-        "key-switch": "auto"
+        "repeater": "",
+        "keypad": "",
+        "key-switch": ""
     },
     "SYNC_TIME": true,
     "PASSWORD": "0000",
