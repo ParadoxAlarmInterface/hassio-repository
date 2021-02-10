@@ -59,7 +59,7 @@
     "LOGGING_DUMP_STATUS": "bool?",
     "LOGGING_DUMP_EVENTS": "bool?",
     "CONNECTION_TYPE": "list(Serial|IP)",
-    "SERIAL_PORT": "device(subsystem=tty)?",
+    "SERIAL_PORT": "str?",
     "SERIAL_BAUD": "int(1200,)?",
     "IP_CONNECTION_HOST": "str?",
     "IP_CONNECTION_PORT": "port?",
