@@ -59,7 +59,7 @@
     "MQTT_ENABLE": true,
     "MQTT_HOST": "core-mosquitto",
     "MQTT_PORT": 1883,
-    "MQTT_KEEPALIVE": 60
+    "MQTT_KEEPALIVE": 60,
     "MQTT_USERNAME": "pai",
     "MQTT_PASSWORD": "my_very_secure_password",
     "MQTT_RETAIN": true,
