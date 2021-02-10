@@ -166,7 +166,7 @@
     "IP_INTERFACE_PASSWORD": "password?",
     "DUMMY_INTERFACE_ENABLE": "bool?",
     "DUMMY_MIN_EVENT_LEVEL": "str?",
-    "DUMMY_EVENT_FILTERS": ["str?"],
+    "DUMMY_EVENT_FILTERS": ["str?"]
   },
   "services": ["mqtt:want"],
   "image": "paradoxalarminterface/pai"
