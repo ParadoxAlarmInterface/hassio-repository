@@ -23,7 +23,7 @@
     "10000/tcp": "For IP connection from Babyware"
   },
   "options": {
-  	"LOGGING_LEVEL_CONSOLE": 20,
+    "LOGGING_LEVEL_CONSOLE": 20,
     "LOGGING_LEVEL_FILE": 40,
     "LOGGING_DUMP_PACKETS": false,
     "LOGGING_DUMP_MESSAGES": false,
