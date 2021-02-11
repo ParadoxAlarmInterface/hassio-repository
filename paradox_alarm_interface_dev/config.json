@@ -44,7 +44,7 @@
         "key-switch": ""
     },
     "SYNC_TIME": true,
-    "SYNC_TIME_MIN_DRIFT": 60,
+    "SYNC_TIME_MIN_DRIFT": 120,
     "PASSWORD": "0000",
     "MQTT_ENABLE": true,
     "MQTT_HOST": "core-mosquitto",
