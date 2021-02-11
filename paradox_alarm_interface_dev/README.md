@@ -13,6 +13,8 @@
 
 # PAI - Paradox Alarm Interface (Development version)
 
+**Warning: Supervisor update to 2021.02.5(HA OS 5.11) broke our plugin. We have released new version. Please reinstall and RECONFIGURE the addon. More info in [Issue #199](https://github.com/ParadoxAlarmInterface/pai/issues/199)**
+
 Middleware that aims to connect to a Paradox Alarm panel, exposing the interface for monitoring and control via several technologies.
 With this interface it is possible to integrate Paradox panels with HomeAssistant, OpenHAB, Homebridge or other domotics system that supports MQTT, as well as several IM methods.
 
