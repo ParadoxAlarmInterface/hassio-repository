@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface",
-  "version": "2.3.2",
+  "version": "2.4.0",
   "slug": "paradox_alarm_interface",
   "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
@@ -67,6 +67,7 @@
     "PUSHBULLET_CONTACTS": [],
     "PUSHBULLET_EVENT_FILTERS": ["live,alarm,-restore", "live,trouble,-clock", "live,tamper"],
     "PUSHOVER_EVENT_FILTERS": ["live,alarm,-restore", "live,trouble,-clock", "live,tamper"],
+    "PUSHOVER_BROADCAST_KEYS": [],
     "SIGNAL_CONTACTS": [],
     "SIGNAL_EVENT_FILTERS": ["live,alarm,-restore", "live,trouble,-clock", "live,tamper"],
     "GSM_CONTACTS": [],
@@ -179,6 +180,12 @@
     "PUSHOVER_KEY": "str?",
     "PUSHOVER_MIN_EVENT_LEVEL": "str?",
     "PUSHOVER_EVENT_FILTERS": ["str?"],
+    "PUSHOVER_BROADCAST_KEYS": [
+      {
+        "user_key": "str?",
+        "devices": "str?"
+      }
+    ],
     "SIGNAL_ENABLE": "bool?",
     "SIGNAL_CONTACTS": ["str?"],
     "SIGNAL_MIN_EVENT_LEVEL": "str?",
