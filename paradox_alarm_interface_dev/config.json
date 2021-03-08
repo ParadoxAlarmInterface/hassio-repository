@@ -114,7 +114,7 @@
     "OUTPUT_PULSE_DURATION": "int?",
     "SYNC_TIME": "bool?",
     "SYNC_TIME_MIN_DRIFT": "int?",
-    "PASSWORD": "password?",
+    "PASSWORD": "str?",
     "POWER_UPDATE_INTERVAL": "int?",
     "PUSH_POWER_UPDATE_WITHOUT_CHANGE": "bool?",
     "PUSH_UPDATE_WITHOUT_CHANGE": "bool?",
