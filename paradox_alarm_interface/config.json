@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "slug": "paradox_alarm_interface",
   "description": "Paradox Alarm Interface. Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
