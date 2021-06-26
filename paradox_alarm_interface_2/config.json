@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface (Second Instance)",
-  "version": "2.5.3",
+  "version": "2.7.1",
   "slug": "paradox_alarm_interface_2",
   "description": "Second instance. Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
