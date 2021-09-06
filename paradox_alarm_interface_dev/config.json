@@ -167,6 +167,7 @@
         "armed_away": "str?",
         "disarmed": "str?"
     },
+    "MQTT_HOMEASSISTANT_CODE": "str?",
     "HOMEASSISTANT_NOTIFICATIONS_ENABLE": "bool?",
     "HOMEASSISTANT_NOTIFICATIONS_NOTIFIER_NAME": "str?",
     "HOMEASSISTANT_NOTIFICATIONS_MIN_EVENT_LEVEL": "str?",
