@@ -11,7 +11,7 @@
     </div>
 </div>
 
-# PAI - Paradox Alarm Interface (deprecated, 2.7.1)
+# PAI - Paradox Alarm Interface
 
 Middleware that aims to connect to a Paradox Alarm panel, exposing the interface for monitoring and control via several technologies.
 With this interface it is possible to integrate Paradox panels with HomeAssistant, OpenHAB, Homebridge or other domotics system that supports MQTT, as well as several IM methods.
