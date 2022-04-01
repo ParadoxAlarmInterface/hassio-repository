@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface (Second Instance)",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "slug": "paradox_alarm_interface_3.x_second",
   "description": "Warning. Breaking changes. Clear MQTT before upgrading from deprecated version. Second instance. Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
