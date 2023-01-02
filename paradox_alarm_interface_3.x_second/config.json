@@ -143,6 +143,7 @@
     "MQTT_CONTROL_TOPIC": "str?",
     "MQTT_DEFINITIONS_TOPIC": "str?",
     "MQTT_HOMEASSISTANT_DISCOVERY_PREFIX": "str?",
+    "MQTT_HOMEASSISTANT_CODE": "str?",
     "MQTT_OUTPUT_TOPIC": "str?",
     "MQTT_DOOR_TOPIC": "str?",
     "MQTT_KEYPAD_TOPIC": "str?",
