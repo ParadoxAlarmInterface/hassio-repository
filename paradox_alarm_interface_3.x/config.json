@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface",
-  "version": "3.1.0",
+  "version": "3.2.1",
   "slug": "paradox_alarm_interface_3.x",
   "description": "Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
@@ -148,7 +148,7 @@
     "MQTT_KEYPAD_TOPIC": "str?",
     "MQTT_STATES_TOPIC": "str?",
     "MQTT_RAW_TOPIC": "str?",
-    "MQTT_NOTIFICATIONS_TOPIC": "str?", 
+    "MQTT_NOTIFICATIONS_TOPIC": "str?",
     "MQTT_SEND_PANIC_TOPIC": "str?",
     "MQTT_PUBLISH_RAW_EVENTS": "bool?",
     "MQTT_INTERFACE_TOPIC": "str?",
