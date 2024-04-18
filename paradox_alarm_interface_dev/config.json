@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface (Development version)",
-  "version": "dev-latest",
+  "version": "dev",
   "slug": "paradox_alarm_interface_dev",
   "description": "Warning. Breaking changes. Clear MQTT before upgrading from deprecated version. Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
@@ -148,7 +148,7 @@
     "MQTT_KEYPAD_TOPIC": "str?",
     "MQTT_STATES_TOPIC": "str?",
     "MQTT_RAW_TOPIC": "str?",
-    "MQTT_NOTIFICATIONS_TOPIC": "str?", 
+    "MQTT_NOTIFICATIONS_TOPIC": "str?",
     "MQTT_SEND_PANIC_TOPIC": "str?",
     "MQTT_PUBLISH_RAW_EVENTS": "bool?",
     "MQTT_INTERFACE_TOPIC": "str?",
