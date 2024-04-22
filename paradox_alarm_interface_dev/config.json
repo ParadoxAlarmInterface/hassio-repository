@@ -117,8 +117,6 @@
     "SYNC_TIME": "bool?",
     "SYNC_TIME_MIN_DRIFT": "int?",
     "PASSWORD": "str?",
-    "POWER_UPDATE_INTERVAL": "int?",
-    "PUSH_POWER_UPDATE_WITHOUT_CHANGE": "bool?",
     "PUSH_UPDATE_WITHOUT_CHANGE": "bool?",
     "MQTT_ENABLE": "bool?",
     "MQTT_HOST": "str?",
