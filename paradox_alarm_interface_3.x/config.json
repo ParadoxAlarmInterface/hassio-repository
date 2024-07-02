@@ -32,6 +32,7 @@
     "IP_CONNECTION_PORT": 10000,
     "IP_CONNECTION_PASSWORD": "paradox",
     "KEEP_ALIVE_INTERVAL": 10,
+    "IO_TIMEOUT": 0.5,
     "LIMITS": {
         "zone": "auto",
         "user": "1-10",
@@ -100,6 +101,7 @@
     "IP_CONNECTION_PANEL_SERIAL": "str?",
     "IP_CONNECTION_BARE": "bool?",
     "KEEP_ALIVE_INTERVAL": "int?",
+    "IO_TIMEOUT": "float?",
     "LIMITS": {
         "zone": "str?",
         "user": "str?",
