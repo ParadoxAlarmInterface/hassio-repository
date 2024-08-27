@@ -1,6 +1,7 @@
 {
   "name": "Paradox Alarm Interface (Second Instance)",
   "version": "3.5.0",
+  "image": "paradoxalarminterface/pai",
   "slug": "paradox_alarm_interface_3.x_second",
   "description": "Second instance. Supports SP/MG/EVO, Serial and IP150 connections.",
   "uart": true,
@@ -8,10 +9,10 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
-  "usb": true,
+  "homeassistant_api": true,
+  "services": ["mqtt:need"],
   "map": [
-    "share:rw",
-    "config:ro"
+    "config"
   ],
   "environment": {
      "PAI_CONFIG_FILE": "/data/options.json"
@@ -206,7 +207,5 @@
     "DUMMY_INTERFACE_ENABLE": "bool?",
     "DUMMY_MIN_EVENT_LEVEL": "str?",
     "DUMMY_EVENT_FILTERS": ["str?"]
-  },
-  "services": ["mqtt:want"],
-  "image": "paradoxalarminterface/pai"
+  }
 }
