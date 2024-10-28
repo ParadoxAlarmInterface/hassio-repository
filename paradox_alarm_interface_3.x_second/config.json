@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface (Second Instance)",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "image": "paradoxalarminterface/pai",
   "slug": "paradox_alarm_interface_3.x_second",
   "description": "Second instance. Supports SP/MG/EVO, Serial and IP150 connections.",
@@ -172,6 +172,7 @@
         "disarmed": "str?"
     },
     "HOMEASSISTANT_NOTIFICATIONS_ENABLE": "bool?",
+    "HOMEASSISTANT_NOTIFICATIONS_LOVELACE_URI": "str?",
     "HOMEASSISTANT_NOTIFICATIONS_NOTIFIER_NAME": "str?",
     "HOMEASSISTANT_NOTIFICATIONS_MIN_EVENT_LEVEL": "str?",
     "HOMEASSISTANT_NOTIFICATIONS_EVENT_FILTERS": ["str?"],
