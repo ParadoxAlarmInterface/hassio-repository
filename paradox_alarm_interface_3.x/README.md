@@ -1,7 +1,7 @@
 <div align="left">
     <div style="display: flex;">
-        <a href="https://gitter.im/paradox-alarm-interface/community">
-            <img alt="Gitter" src="https://img.shields.io/gitter/room/paradox-alarm-interface/community?logo=gitter">
+        <a href="https://discord.com/channels/1310653159596888064">
+            <img alt="Discord" src="https://img.shields.io/discord/1310653159596888064">
         </a>
         <a href="https://hub.docker.com/r/paradoxalarminterface/pai">
             <img alt="Docker Arch" src="https://img.shields.io/badge/docker_arch-386%7Camd64%7Carmv6%7Carmv7%7Carm64-green?logo=docker">
