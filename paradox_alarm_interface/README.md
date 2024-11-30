@@ -1,6 +1,6 @@
 <div align="left">
     <div style="display: flex;">
-        <a href="https://discord.com/channels/1310653159596888064">
+        <a href="https://discord.gg/7BWjravp">
             <img alt="Discord" src="https://img.shields.io/discord/1310653159596888064">
         </a>
         <a href="https://hub.docker.com/r/paradoxalarminterface/pai">
