@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface (Second Instance)",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "image": "paradoxalarminterface/pai",
   "slug": "paradox_alarm_interface_3.x_second",
   "description": "Second instance. Supports SP/MG/EVO, Serial and IP150 connections.",
