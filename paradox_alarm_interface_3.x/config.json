@@ -1,6 +1,6 @@
 {
   "name": "Paradox Alarm Interface",
-  "version": "3.6.1",
+  "version": "3.7.0",
   "image": "paradoxalarminterface/pai",
   "slug": "paradox_alarm_interface_3.x",
   "description": "Supports SP/MG/EVO, Serial and IP150 connections.",
@@ -55,6 +55,7 @@
     "MQTT_USERNAME": "pai",
     "MQTT_PASSWORD": "my_very_secure_password",
     "MQTT_HOMEASSISTANT_AUTODISCOVERY_ENABLE": true,
+    "MQTT_BASE_TOPIC": "paradox",
     "COMMAND_ALIAS": {
         "arm": "partition all arm",
         "disarm": "partition all disarm"
