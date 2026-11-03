@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.9.0
+
+- Update the PAI image to 3.9.0.
+- Expose EVO bus-module PGM addresses and output counts.
+
 ## 3.8.1
 
 - Update the PAI image from 3.7.0 to 3.8.1.
