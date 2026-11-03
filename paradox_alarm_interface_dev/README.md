@@ -46,6 +46,21 @@ credentials; do not keep the example password. The schema also exposes MQTT
 TLS, transport/protocol, QoS, entity naming, challenge authorization, notification
 filters and IP-interface bind settings.
 
+### EVO bus-module PGMs
+
+Add one entry per module under `MODULE_PGM_ADDRESSES`. For a PGM4 at bus
+address 4 with three outputs:
+
+```yaml
+MODULE_PGM_ADDRESSES:
+  - address: 4
+    pgm_count: 3
+```
+
+Addresses must be 1-254 and output counts 1-4. Use each address only once.
+These outputs are available for native EVO Serial/IP connections, not PRT3.
+Their displayed state is assumed from PAI commands, not read back from the panel.
+
 ### Passwords and codes
 
 Credential fields use masked password inputs. Quote numeric-looking credentials
@@ -75,7 +90,6 @@ in YAML to preserve leading zeros.
 
 | Setting / feature | Limitation in this add-on |
 | --- | --- |
-| `MODULE_PGM_ADDRESSES` | Not exposed: the current PAI implementation requires integer dictionary keys, but `/data/options.json` converts keys to strings. |
 | `PRT3_UTILITY_KEYS`, `MQTT_TOGGLE_CODES` | Not exposed: Supervisor schemas cannot validate arbitrary dictionary keys. PRT3 utility-key discovery buttons therefore cannot be configured here. |
 | Command aliases and `LIMITS` | Only the keys listed in the schema are accepted; arbitrary new keys are discarded by Supervisor. |
 | Event allow/ignore lists | Use regular-expression strings. Tuple-style numeric event pairs are not represented by the schema. |
