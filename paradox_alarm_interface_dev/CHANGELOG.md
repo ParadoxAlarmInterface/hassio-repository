@@ -1,5 +1,9 @@
 # Changelog
 
+## Module PGM support
+
+- Expose EVO bus-module PGM addresses and output counts.
+
 ## Configuration refresh
 
 - Align options and schema with the stable 3.8.1 add-ons, including PRT3,
