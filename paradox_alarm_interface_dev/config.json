@@ -43,6 +43,7 @@
     "IP_CONNECTION_PASSWORD": "paradox",
     "KEEP_ALIVE_INTERVAL": 10,
     "IO_TIMEOUT": 0.5,
+    "MODULE_PGM_ADDRESSES": [],
     "LIMITS": {
         "zone": "auto",
         "user": "1-10",
@@ -122,6 +123,12 @@
     "IP_CONNECTION_BARE": "bool?",
     "KEEP_ALIVE_INTERVAL": "int?",
     "IO_TIMEOUT": "float?",
+    "MODULE_PGM_ADDRESSES": [
+      {
+        "address": "int(1,254)",
+        "pgm_count": "int(1,4)"
+      }
+    ],
     "LIMITS": {
         "zone": "str?",
         "user": "str?",

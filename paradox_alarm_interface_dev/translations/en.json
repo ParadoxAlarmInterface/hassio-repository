@@ -30,6 +30,14 @@
     "IP_CONNECTION_BARE": {"name": "IP: bare TCP serial tunnel", "description": "Enable only for a raw panel serial-over-TCP bridge, not a normal IP150/IP100 connection."},
     "KEEP_ALIVE_INTERVAL": {"name": "Status update interval (seconds)", "description": "Time between panel status updates. The add-on default is 10 seconds."},
     "IO_TIMEOUT": {"name": "I/O timeout (seconds)", "description": "Fractional seconds are supported; for example 0.5. Change only when troubleshooting connection timing."},
+    "MODULE_PGM_ADDRESSES": {
+      "name": "EVO: bus-module PGM outputs",
+      "description": "Add one entry per module. Duplicate addresses are ignored. Output state is assumed, not read from the panel.",
+      "fields": {
+        "address": {"name": "Module bus address", "description": "The module's bus address, from 1 to 254."},
+        "pgm_count": {"name": "Output count", "description": "Number of PGM outputs to expose, from 1 to 4."}
+      }
+    },
     "LIMITS": {
       "name": "Panel discovery limits",
       "description": "Per category: auto = default discovery limits; empty = none; IDs/ranges such as 1-8,12 = selected items. Keep existing values unless you intend to change monitoring.",
@@ -53,7 +61,7 @@
     "SYNC_TIME_MIN_DRIFT": {"name": "Clock drift threshold (seconds)", "description": "PAI requires at least 120 seconds. Synchronize when the panel clock differs by more than this threshold."},
     "SYNC_TIME_TIMEZONE": {"name": "Panel timezone", "description": "Empty uses the host timezone. Otherwise use an IANA name such as Europe/Helsinki."},
     "PASSWORD": {"name": "Panel PC communication password", "description": "Not a user/master/installer code. Native SP/MG/EVO normally uses 4 hexadecimal characters; empty/short values remain supported. MG6250 uses 1-255 UTF-8 bytes. Quote in YAML to preserve zeros. Unused by PRT3."},
-    "MG6250_USERNAME": {"name": "MG6250: PC username", "description": "Normally admin. MG6250 support in 3.8.1 is limited to login/decryption, not usable monitoring or control."},
+    "MG6250_USERNAME": {"name": "MG6250: PC username", "description": "Normally admin. MG6250 support is limited to login/decryption, not usable monitoring or control."},
     "PUSH_UPDATE_WITHOUT_CHANGE": {"name": "Publish unchanged panel updates", "description": "Advanced. Notify interfaces even when values have not changed; increases traffic."},
     "MQTT_ENABLE": {"name": "Enable MQTT", "description": "Required for MQTT monitoring/control and Home Assistant MQTT discovery."},
     "MQTT_HOST": {"name": "MQTT: broker host", "description": "Hostname or IP, without a scheme or port. For the Home Assistant Mosquitto add-on use core-mosquitto."},
