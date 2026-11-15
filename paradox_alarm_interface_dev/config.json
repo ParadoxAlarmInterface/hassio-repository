@@ -78,6 +78,7 @@
         "disarmed": "disarm"
     },
     "HOMEASSISTANT_NOTIFICATIONS_EVENT_FILTERS": ["live,alarm,-restore", "trouble,-clock", "live,tamper"],
+    "HOMEASSISTANT_ARM_NO_ENTRY_STATE": "armed_night",
     "HOMEASSISTANT_PUBLISH_PARTITION_PROPERTIES": ["target_state", "current_state"],
     "HOMEASSISTANT_PUBLISH_ZONE_PROPERTIES": ["open", "tamper"],
     "PUSHBULLET_CONTACTS": [],
@@ -221,6 +222,7 @@
     "HOMEASSISTANT_NOTIFICATIONS_EVENT_FILTERS": ["str?"],
     "HOMEASSISTANT_NOTIFICATIONS_ALLOW_EVENTS": ["str?"],
     "HOMEASSISTANT_NOTIFICATIONS_IGNORE_EVENTS": ["str?"],
+    "HOMEASSISTANT_ARM_NO_ENTRY_STATE": "list(armed_home|armed_away|armed_night|armed_vacation|armed_custom_bypass)?",
     "HOMEASSISTANT_PUBLISH_PARTITION_PROPERTIES": ["str?"],
     "HOMEASSISTANT_PUBLISH_ZONE_PROPERTIES": ["str?"],
     "PUSHBULLET_ENABLE": "bool?",

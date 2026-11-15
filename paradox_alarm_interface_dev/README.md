@@ -46,6 +46,14 @@ credentials; do not keep the example password. The schema also exposes MQTT
 TLS, transport/protocol, QoS, entity naming, challenge authorization, notification
 filters and IP-interface bind settings.
 
+### No-entry arming state
+
+Choose the Home Assistant state for `arm_no_entry` from the
+**Home Assistant: no-entry armed state** dropdown
+(`HOMEASSISTANT_ARM_NO_ENTRY_STATE`). The default is `armed_night`.
+This changes only the reported state, not panel protection, commands or delays.
+It requires a dev image containing support for this setting. Restart after saving.
+
 ### EVO bus-module PGMs
 
 Add one entry per module under `MODULE_PGM_ADDRESSES`. For a PGM4 at bus

@@ -142,6 +142,7 @@
     "HOMEASSISTANT_NOTIFICATIONS_EVENT_FILTERS": {"name": "Notifications: tag filters", "description": "For example live,alarm,-restore. Clear this list before using allow/ignore regex lists; the modes cannot be combined."},
     "HOMEASSISTANT_NOTIFICATIONS_ALLOW_EVENTS": {"name": "Notifications: allow regexes", "description": "Advanced regex list. First clear the event tag filters. Tuple-style numeric event pairs are not supported by this form."},
     "HOMEASSISTANT_NOTIFICATIONS_IGNORE_EVENTS": {"name": "Notifications: ignore regexes", "description": "Advanced regex list. First clear the event tag filters; do not combine the two filter modes."},
+    "HOMEASSISTANT_ARM_NO_ENTRY_STATE": {"name": "Home Assistant: no-entry armed state", "description": "Home Assistant state for no-entry arming (arm_no_entry). Default: armed_night. Changes the reported state only. Restart after saving."},
     "HOMEASSISTANT_PUBLISH_PARTITION_PROPERTIES": {"name": "Home Assistant: partition properties", "description": "Normally target_state and current_state. Changing this list changes which partition properties are published."},
     "HOMEASSISTANT_PUBLISH_ZONE_PROPERTIES": {"name": "Home Assistant: zone properties", "description": "Normally open and tamper. Changing this list changes which zone properties are published."},
     "PUSHBULLET_ENABLE": {"name": "Pushbullet: enable", "description": "Enable the Pushbullet text interface."},
