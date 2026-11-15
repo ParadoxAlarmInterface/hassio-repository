@@ -1,5 +1,10 @@
 # Changelog
 
+## No-entry arming state
+
+- Add a Home Assistant armed-state dropdown for `arm_no_entry`, defaulting to `armed_night`.
+- Requires a dev image containing support for `HOMEASSISTANT_ARM_NO_ENTRY_STATE`.
+
 ## Module PGM support
 
 - Expose EVO bus-module PGM addresses and output counts.
