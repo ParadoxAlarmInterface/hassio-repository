@@ -6,13 +6,17 @@
   "description": "Supports SP/MG/EVO with Serial, IP150 and PRT3 connections.",
   "uart": true,
   "url": "https://github.com/ParadoxAlarmInterface/pai",
-  "arch": ["armv7", "aarch64", "amd64"],
+  "arch": ["aarch64", "amd64"],
   "startup": "application",
   "boot": "auto",
   "homeassistant_api": true,
   "services": ["mqtt:need"],
   "map": [
-    "config"
+    {
+      "type": "homeassistant_config",
+      "path": "/config",
+      "read_only": true
+    }
   ],
   "environment": {
      "PAI_CONFIG_FILE": "/data/options.json"
